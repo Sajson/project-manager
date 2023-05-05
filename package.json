@@ -1,0 +1,10 @@
+{
+  "name": "kanban-board",
+  "version": "1.0.0",
+  "description": "TypeScript Kanban board",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "author": "Mokrzycki Adrian"
+}
