@@ -1,7 +1,7 @@
 {
-  "name": "kanban-board",
+  "name": "project-manager",
   "version": "1.0.0",
-  "description": "TypeScript Kanban board",
+  "description": "TypeScript Project Manager",
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w"

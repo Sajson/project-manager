@@ -3,11 +3,12 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body {
   margin: 0;
+  background-color: #121212;
 }
 
 label,
@@ -38,8 +39,8 @@ textarea:focus {
 
 button {
   font: inherit;
-  background: #ff0062;
-  border: 1px solid #ff0062;
+  background: #BB86FC;
+  border: 1px solid #BB86FC;
   cursor: pointer;
   color: white;
   padding: 0.75rem 1rem;
@@ -51,17 +52,17 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #a80041;
-  border-color: #a80041;
+  background: #ad6cfc;
+  border-color: #ad6cfc;
 }
 
 .projects {
   margin: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid #BB86FC;
 }
 
 .projects header {
-  background: #ff0062;
+  background: #BB86FC;
   height: 3.5rem;
   display: flex;
   justify-content: center;
@@ -69,11 +70,11 @@ button:active {
 }
 
 #finished-projects {
-  border-color: #0044ff;
+  border-color: #03DAC6;
 }
 
 #finished-projects header {
-  background: #0044ff;
+  background: #03DAC6;
 }
 
 .projects h2 {
@@ -88,6 +89,8 @@ button:active {
 }
 
 .projects li {
+  color: white;
+  background-color: #3c3546;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   margin: 1rem;
@@ -99,7 +102,7 @@ button:active {
 }
 
 #finished-projects li h2 {
-  color: #0044ff;
+  color: #03DAC6;
 }
 
 .projects li h3 {
@@ -120,8 +123,15 @@ button:active {
 }
 
 #user-input {
+  color: white;
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ff0062;
-  background: #f7f7f7;
+  border: 1px solid #BB86FC;
+  background: #1F1B24;
+}
+
+#user-input input, #user-input textarea {
+  background-color: #3c3546;
+  border: none;
+  color: #FFFFFF;
 }
