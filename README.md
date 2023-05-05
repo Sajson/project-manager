@@ -1,2 +1,2 @@
-# kanban-board
-TypeScript Kanban board
+# Project Manager
+TypeScript Project Manager
